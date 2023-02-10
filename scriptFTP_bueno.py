@@ -63,4 +63,4 @@ with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=contexto) as smtp:
     smtp.login(emisor,contrasena)
     smtp.sendmail(emisor,receptor,email.as_string())
 
-print ('El correo se ha enviado con éxito')
+print ('Buen trabajo - Se ha ejecutado el script con éxito')
